@@ -2,7 +2,9 @@
 Quick Sort is a sorting method which uses the idea of "Divide and Conquer". This strategy aims to rearrange the elements so that the smaller ones precede the larger. Then, sorts the two generated sublists (the list of the smaller numbers and the list of larger numbers) recursively until the list is fully ordered.
 
 # Partition Method
-The Partition is a method used to rearrange the elements using a pivot. It is used a "For Loop" to iterate for each element in the list. If this element is lower and just after the pivot, the pivot and the element are swapped. If the element after the pivot is larger than it, it swaps the position of the pivot with the larger number and then the larger number swaps position with the found lower element.
+The Partition is a method used to rearrange the elements using a pivot. It is used a "For Loop" to iterate for each element in the list. If this element is lower and just after the pivot, the pivot and the element are swapped. If the element after the pivot is larger than it, it swaps the position of the pivot with the larger number and then the larger number swaps position with the found lower element. Example:
+
+![Partition example](PartitionStrategy.png)
         
     int partition(int* myArray, int iniPos, int finPos) {
 
